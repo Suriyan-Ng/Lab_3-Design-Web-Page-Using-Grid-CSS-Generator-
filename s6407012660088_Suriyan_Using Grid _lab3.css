@@ -1,0 +1,116 @@
+    /*Copy font url from google front*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+    * {
+        font-family: 'Poppins';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        background-color: #404040;
+        align-items: center;
+        justify-content: center;
+    }
+    /*-----------------------------------------------------*/
+    
+    .container {
+        margin-top: 50px;
+        width: 950px;
+        height: 100vh;
+        /* background-color: rgb(208, 219, 207); */
+    }
+    /*-----------------------------------------------------*/
+    
+    .container .company {
+        margin-top: 20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    
+    .company .logo {
+        color: pink;
+        font-size: 40px;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+    
+    .company .name {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    /*-----------------------------------------------------*/
+    
+    .container .hr {
+        margin-top: 20px;
+        background-color: #fff;
+        height: 2px;
+        width: 100%;
+    }
+    
+    .container .text-start {
+        margin-top: 20px;
+        font-size: 38px;
+        font-weight: 400;
+        color: #fff;
+    }
+    
+    .container .text-display {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+    }
+    
+    .grid-1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    /*-----------------------------------------------------*/
+    
+    .grid-1-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 0px;
+    }
+    /*-----------------------------------------------------*/
+    
+    .grid-4-2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+    }
+    
+    .image1 {
+        margin-top: 20px;
+        height: 2px;
+        width: 100%;
+    }
+    /*-----------------------------------------------------*/
+    
+    div {
+        /* text-align: justify; */
+        text-justify: inter-word;
+        hyphens: auto;
+    }
+    
+    .footer {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px;
+        text-align: center;
+    }
+    /*=======================================================*/
